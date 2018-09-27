@@ -53,6 +53,7 @@ body {
 
 [data-theme=dark] h3 {
     color: #ecf0f3;
+    z-index: -;
 }
 
 [data-theme=book] small {
@@ -798,20 +799,12 @@ section {
     }
 }
 
-@media (min-width:800px) and (max-width:1px) {
-    .edu {
-        position: relative;
-        box-sizing: border-box;
-        margin-left: 25%;
-
-        /*display: block*/
-        margin: -4px 602px -4px 387px;
-    }
+.edu {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    left: 25%;
 }
 
 hjk {
-}
-
-.edu {
-    padding-left: 20%;
 }
