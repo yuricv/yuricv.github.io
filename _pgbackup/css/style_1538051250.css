@@ -18,7 +18,7 @@ nav a {
 h3 {
     color: #333;
     font-size: 239%;
-    letter-spacing: 0px;
+    letter-spacing: -4px;
     text-align: center;
     margin-left: -11px;
 }
@@ -52,7 +52,7 @@ body {
 }
 
 [data-theme=dark] h3 {
-    color: #ecf0f3;
+    color: #bfc8cf;
     z-index: -;
 }
 
@@ -797,16 +797,4 @@ section {
         padding: 25px 10px;
         text-align: left;
     }
-}
-
-.edu {
-    position: relative;
-    margin-right: 404px;
-    margin-left: 408px;
-    padding-left: -88px;
-    padding-right: -167px;
-    column-fill: balance;
-}
-
-hjk {
 }
