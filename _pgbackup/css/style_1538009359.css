@@ -1,8 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Sans);
 
-/*body:after {
+body:after {
     content: '';
-}*/
+}
+
 nav {
     margin-top: -1.5em;
     display: block;
@@ -35,9 +36,10 @@ small {
     color: #777;
 }
 
-/*body {
+body {
     width: -52px;
-}*/
+}
+
 [data-theme=book] h3 {
     color: #632;
 }
@@ -108,8 +110,6 @@ a {
 section {
     position: relative;
     width: 100%;
-    bottom: 6px;
-    margin-bottom: 1px;
 }
 
 /*##### HERO SECTION #####*/
@@ -247,7 +247,7 @@ section {
         color: ;
     }
 
-    background-color: rgba(108, 74, 142, 0);
+    background-color: rgba(51, 50, 52, 0);
 }
 
 .experience .content {
