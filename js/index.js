@@ -1,5 +1,5 @@
 document.documentElement.setAttribute('data-theme','dark')
-$(document).ready(function() {
+$( document ).ready(function() {
   // Main variables
     var $aboutTitle = $('.about-myself .content h2');
     var $developmentWrapper = $('.development-wrapper');
