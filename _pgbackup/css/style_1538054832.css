@@ -86,13 +86,9 @@ body {
 *:after {
     box-sizing: border-box;
     background-color: rgba(118, 104, 133, 0);
-    color: #f4eeee;
+    color: #cecece;
     font-family: Source Code Pro;
     margin-bottom: 8px;
-    position: relative;
-}
-
-800 {
 }
 
 html,
@@ -112,7 +108,7 @@ body {
 
 a {
     color: inherit;
-    font-family: Open Sans;
+    text-decoration: none;
 }
 
 section {
@@ -174,9 +170,6 @@ section {
 .about-myself .content .aboutTitleVisible {
     -webkit-transform: translateY(0px) scale(1);
     transform: translateX(0px) scale(1);
-    margin-left: 69px;
-    margin-right: 47px;
-    left: 9px;
 }
 
 .about-myself .content p span {
@@ -820,10 +813,5 @@ hjk {
 }
 
 .edu {
-    position: relative;
-    padding-left: 23%;
-    background-color: #333333;
-}
-
-.buttton {
+    padding-left: 20%;
 }

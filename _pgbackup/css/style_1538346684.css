@@ -86,7 +86,7 @@ body {
 *:after {
     box-sizing: border-box;
     background-color: rgba(118, 104, 133, 0);
-    color: #f4eeee;
+    color: #cecece;
     font-family: Source Code Pro;
     margin-bottom: 8px;
     position: relative;
@@ -112,7 +112,7 @@ body {
 
 a {
     color: inherit;
-    font-family: Open Sans;
+    text-decoration: none;
 }
 
 section {
@@ -823,7 +823,4 @@ hjk {
     position: relative;
     padding-left: 23%;
     background-color: #333333;
-}
-
-.buttton {
 }

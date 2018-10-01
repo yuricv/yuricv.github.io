@@ -794,6 +794,7 @@ section {
         text-decoration: underline;
         display: table-cell;
         vertical-align: middle;
+        color: #ffffff;
     }
 
     .portfolio .content .projects .project .project-description {
@@ -821,7 +822,7 @@ hjk {
 
 .edu {
     position: relative;
-    padding-left: 23%;
+    padding-left: 20%;
     background-color: #333333;
 }
 
