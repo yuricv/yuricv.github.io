@@ -17,7 +17,10 @@ nav a {
 
 h3 {
     color: #333;
-    font-size: 275%;
+    font-size: 239%;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-left: -11px;
 }
 
 h4 {
@@ -49,7 +52,7 @@ body {
 }
 
 [data-theme=dark] h3 {
-    color: #eeeeee;
+    color: #ecf0f3;
 }
 
 [data-theme=book] small {
@@ -83,9 +86,13 @@ body {
 *:after {
     box-sizing: border-box;
     background-color: rgba(118, 104, 133, 0);
-    color: #cecece;
+    color: #f4eeee;
     font-family: Source Code Pro;
-    margin-left: 0px;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+800 {
 }
 
 html,
@@ -105,7 +112,7 @@ body {
 
 a {
     color: inherit;
-    text-decoration: none;
+    font-family: Open Sans;
 }
 
 section {
@@ -167,6 +174,9 @@ section {
 .about-myself .content .aboutTitleVisible {
     -webkit-transform: translateY(0px) scale(1);
     transform: translateX(0px) scale(1);
+    margin-left: 69px;
+    margin-right: 47px;
+    left: 9px;
 }
 
 .about-myself .content p span {
@@ -793,4 +803,27 @@ section {
         padding: 25px 10px;
         text-align: left;
     }
+}
+
+@media (min-width:800px) and (max-width:1px) {
+    .edu {
+        position: relative;
+        box-sizing: border-box;
+        margin-left: 25%;
+
+        /*display: block*/
+        margin: -4px 602px -4px 387px;
+    }
+}
+
+hjk {
+}
+
+.edu {
+    position: relative;
+    padding-left: 23%;
+    background-color: #333333;
+}
+
+.buttton {
 }

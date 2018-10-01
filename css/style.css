@@ -821,8 +821,9 @@ hjk {
 
 .edu {
     position: relative;
-    padding-left: 23%;
     background-color: #333333;
+    display: inline;
+    object-fit: contain;
 }
 
 .buttton {
