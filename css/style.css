@@ -832,3 +832,26 @@ hjk {
 .waves-orange {
     font-size: -73px;
 }
+
+@media (max-width:479px) {
+    small {
+        padding-right: 25px;
+        margin-right: 28px;
+    }
+}
+
+@media (max-width:479px) {
+    small {
+    }
+}
+
+@media (max-width:479px) {
+    smal {
+    }
+}
+
+@media (max-width:479px) {
+    smal {
+        margin-bottom: -;
+    }
+}
